@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=Teko:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+
+body {
+  color: #555;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+a {
+  color: #1abc9c;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #F6A623;
+}
+
+h1, h2, h3, h4 {
+  color: #333;
+}
+
+p {
+  line-height: 1.5;
+}
+
+#header {
+  background-color: #1abc9c;
+  height: 150px;
+  line-height: 150px;
+  font-family: 'Teko', sans-serif;
+}
+
+#header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#header a:hover {
+  color: #222;
+}
+
+#header-title {
+  display: block;
+  float: left;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#header-nav {
+  display: block;
+  float: right;
+  margin-top: 0;
+}
+
+#header-nav li {
+  display: inline;
+  padding-left: 20px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #2f2f2f;
+  padding-left: 50px 0;
+}
+
+#footer h4 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#footer p {
+  color: white;
+}
+
+.page {
+  position: relative;
+  min-height: 100%;
+}
+
+.column {
+  min-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.container{
+  max-width: 2000px;
+  margin: 0 auto;
+}
+
+.inner-con{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.post-container:nth-child(even){
+    background-color: #ccc;
+}
+
+.post, .about{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 0px;
+}
+
+.about {
+  text-align: center;
+}
+
+.post-author img {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+  border-radius: 50px;
+}
+
+.about-author img {
+  width: 200px;
+  height: 200px;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+.post-author span {
+  margin-left: 16px;
+}
+
+.post-date{
+  color: #d2d2d2;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
